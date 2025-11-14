@@ -4,3 +4,5 @@ Basic dll injector with named pipe
 
 can be used in many projects allowing simple communication between DLL and Injector process
 Can specify an exit code to trigger closing listening from messages from DLL
+
+[+] dll.cpp can be used as a testing dll
