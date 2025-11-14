@@ -14,6 +14,11 @@ typedef struct {
     DWORD pid;
 } inject;
 
+/*
+pipe name: mond
+listening exit code: mond
+*/
+
 HANDLE initPipeLine() {
 
     HANDLE pipe = CreateNamedPipeA(
